@@ -1,0 +1,3 @@
+title=Plant Classifier
+author=Oluwafunmilola Kesa
+orientation=<portrait>
