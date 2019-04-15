@@ -97,7 +97,7 @@ def parse_contents(contents, filename, date):
     if not app.loaded_model:
         # Get index to class mapping
         print("Loading model....")
-        loaded_model, class_to_idx = process_image.load_checkpoint('assets/plants9615_checkpoint.pth')
+        loaded_model, class_to_idx = process_image.load_checkpoint('../Plant-diseases-classifier/plants9615_checkpoint.pth')
         idx_to_class = { v : k for k,v in class_to_idx.items()}
 
     try:
