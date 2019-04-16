@@ -47,7 +47,6 @@ app.index_string = '''
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
             {%scripts%}
-            {%renderer%}
         </footer>
     </body>
 </html>
@@ -177,4 +176,4 @@ def update_output(list_of_contents, list_of_names, list_of_dates):
 
 
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=80)
